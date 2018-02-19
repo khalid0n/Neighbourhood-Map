@@ -186,9 +186,9 @@ function Supermarkets(data) {
     // trigger visibilty of a marker when clicked from Menu
     this.showClicked = function (store) {
         google.maps.event.trigger(this.marker, "click");
-    }
+    };
 
-};
+}
 
 
 function ViewModel() {
@@ -292,4 +292,4 @@ function ViewModel() {
 
     });
 
-}; // End VM
+} // End VM
