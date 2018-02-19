@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SuperMarker Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Khalid Alsahli">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <div class="hamburgerButton" onclick="animateIcon(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+
+
+    <div class="search">
+
+
+        <h2>Supermarkets Near Sahafa District</h2>
+        <!-- <p data-bind="text: Supermarkets.title"></p> -->
+        <input data-bind="textInput: searchQuery, event: {keyup: filterStores}" id="search-bar" type="search" placeholder="search..">
+
+
+        <ul data-bind="foreach: filterdList">
+            <li id="list-stores" data-bind="text: title, click: showClicked"></li>
+        </ul>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkD7P7JY9xu9WnfZRss8vJf11xKyEVGG4&v=3&callback=initMap">
+
+
+    </script>
+</body>
+
+</html>
