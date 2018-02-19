@@ -5,6 +5,7 @@ The Development was approached following __MVVM__ pattern using Knockout.JS Fram
 
 ### How to:
 - Download the project's directory & run `index.html` in your favorite browser.
+- or Simply, [click here](https://khalid0n.github.io/Neighbourhood-Map/) preferebly with Google Chrome.
 
 ### Libraries, frameworks and APIs used
 - [Google Maps API](https://developers.google.com/maps/documentation/javascript/) 
