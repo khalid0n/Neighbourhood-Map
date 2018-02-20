@@ -96,7 +96,7 @@ var styles = [
 // ====== Global Variables ====//
 var map;
 // changing default marker icon, credit --> https://developers.google.com/maps/documentation/javascript/markers
-var markerImg = 'http://maps.google.com/mapfiles/kml/pal3/icon18.png';
+var markerImg = 'https://maps.google.com/mapfiles/kml/pal3/icon18.png';
 // === Foursquare Auth === //
 var clientId = 'QAWVY5MFH2EEGZP41M2OLKRZLD41P00GAW5YRADTWIL2S40A';
 var clientSecret = 'PAU51QPZKTVC5U0HRKNANKVWBHEP1XM2ZXLXEQ340YTPXJ5F';
