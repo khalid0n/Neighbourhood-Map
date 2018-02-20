@@ -81,6 +81,10 @@
      width: 95%;
  }
 
+ .error-msg {
+margin-left: 40%;
+ }
+
  #list-stores {
      background-color: white;
      font-family: serif;
@@ -96,5 +100,3 @@
      list-style-type: none;
 
  }
-
-

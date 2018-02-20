@@ -123,6 +123,11 @@ function initMap() {
 
 }
 
+function mapError() {
+    $('#map').html(' <img class="error-msg" src="https://www.startupdonut.co.uk/sites/default/files/tax//oops_249x189.png" alt="Error img">   <h3 class="error-msg">Failed Loading GoogleMaps, Please Try again</h3> ');
+    $('.search').toggleClass("hide");
+}
+
 
 // this function for animated Menu Icon, credit --> https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
 function animateIcon(x) {
@@ -274,7 +279,7 @@ function ViewModel() {
      * credit --> https://opensoul.org/2011/06/23/live-search-with-knockoutjs/
      * credit --> https://stackoverflow.com/questions/34584181/create-live-search-with-knockout
      */
-    self.filterStores = ko.computed(function () {
+    self.filterStores = function () {
         self.filterdList.removeAll();
         var q = self.searchQuery().toLowerCase();
 
@@ -290,6 +295,6 @@ function ViewModel() {
             store.marker.setVisible(true);
         });
 
-    });
+    };
 
 } // End VM
