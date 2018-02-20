@@ -284,7 +284,7 @@ function ViewModel() {
         var q = self.searchQuery().toLowerCase();
 
         self.list().forEach(function (store) {
-            store.marker.setVisible(true);
+            store.marker.setVisible(false);
 
             if (store.title().toLowerCase().indexOf(q) !== -1) {
                 self.filterdList.push(store);
