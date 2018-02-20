@@ -1,6 +1,6 @@
 # Neighbourhood Map Project
-This project is part of [udacity's front-end developer nanodegree](https://udacity.com/course/front-end-web-developer-nanodegree--nd001).
-it's a Single Page Application, that displays _supermarkets_ near [Sahafa District, Riyadh City](https://goo.gl/maps/Kapw8bLUrKx) using Google Maps API. When each location is clicked, it should display information taken from Foursquare API. As well as search-based filtering to the map.
+This project is part of [udacity's front-end developer nanodegree](https://udacity.com/course/front-end-web-developer-nanodegree--nd001)./
+It's a Single Page Application, that displays _supermarkets_ near [Sahafa District, Riyadh City](https://goo.gl/maps/Kapw8bLUrKx) using Google Maps API. When each location is clicked, it should display information taken from Foursquare API. As well as search-based filtering to the map./
 The Development was approached following __MVVM__ pattern using Knockout.JS Framework.
 
 ### How to:
